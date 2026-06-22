@@ -7,7 +7,100 @@
 /* 1024px-1440px */
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     box-sizing: border-box;
+    width: 1442px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --header-color: #ffffff;
+    --btn-hero-bg: #FF4E50;
+}
+
+@media (min-width: 1024px) {
+    .header {
+        background-image: url(images/header.webp);
+        background-size: cover;
+        height: 702px;
+    }
+
+    .nav {
+        display: flex;
+        padding-top: 36px;
+    }
+
+    .logo {
+        padding-left: 235px;
+        padding-right: 580px;
+        color: var(--header-color);
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .header-btn {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--header-color);
+        padding-right: 9px;
+        margin: auto 0;
+    }
+
+    .sing-up {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--header-color);
+        border: 2px solid var(--header-color);
+        border-radius: 20px;
+        margin: auto 0;
+        padding: 5px;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .hero-title {
+        font-size: 52px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--header-color);
+        text-transform: uppercase;
+        padding-top: 70px;
+    }
+
+    .hero-text {
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        color: var(--header-color);
+        padding-bottom: 26px;
+    }
+
+    .hero-btn {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 20px;
+        background-color: var(--btn-hero-bg);
+        padding: 13px;
+        color: var(--header-color);
+        height: 23px;
+    }
+
+    
 }
