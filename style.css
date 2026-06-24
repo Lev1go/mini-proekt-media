@@ -24,6 +24,10 @@ a {
 :root {
     --header-color: #ffffff;
     --btn-hero-bg: #FF4E50;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --partners-cl: #333333;
+    --partners-text: #666666;
 }
 
 @media (min-width: 1024px) {
@@ -102,5 +106,116 @@ a {
         height: 23px;
     }
 
+    .partners {
+        height: 509px;
+    }
+
+    .partners-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .partner-list {
+        display: flex;
+        gap: 37px;
+    }
+
+    .partners-title {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: var(--font-montserrat);
+        color: var(--partners-cl);
+        padding-bottom: 31px;
+        padding-top: 64px;
+        padding-left: 504px;
+    }
     
+    .partners-list-title {
+        font-size: 14px;
+        font-family: var(--font-montserrat);
+        font-weight: 700;
+        color: var(--partners-cl);
+    }
+
+    .partners-text {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: var(--font-roboto);
+        color: var(--partners-text);
+    }
+    .partners-btn {
+        width: 190px;
+        height: 40px;
+        margin-bottom: 72px;
+        margin-left: 622px;
+        margin-top: 37px;
+        background-color: white;
+        border: 2px solid #FF4E50;
+        color: #FF4E50;
+        font-size: 14px;
+        font-family: var(--font-montserrat);
+        font-weight: 700;
+        border-radius: 20px;
+    }
+
+    .guide {
+        height: 400px;
+    }
+
+    .guide-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .guide-list {
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+    }
+
+    .guide-title {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: var(--font-montserrat);
+        color: var(--partners-cl);
+        padding-top: 59px;
+        padding-bottom: 104px;
+        padding-left: 650px;
+    }
+
+    .guide-list-title {
+        font-size: 14px;
+        font-family: var(--font-montserrat);
+        font-weight: 700;
+        color: var(--partners-cl);
+    }   
+    .guide-text {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: var(--font-roboto);
+        color: var(--partners-text);
+    }
+    .guide-button {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: var(--font-montserrat);
+        border: 2px solid #4E73DB;
+        color: #4E73DB;
+        background-color: white;
+        width: 190px;
+        height: 40px;
+        margin-top: 79px;
+        margin-bottom: 52px;
+        margin-left: 623px;
+        border-radius: 20px;
+
+    }
+    .guide-img {
+        margin-top: 161px;
+    }
 }
