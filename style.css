@@ -218,4 +218,196 @@ a {
     .guide-img {
         margin-top: 161px;
     }
+
+    .love-us {
+        height: 369px;
+    }
+
+    .love-us-container{
+        text-align: center;
+    }
+    .love-us-title {
+        font-size: 22px;
+        font-family: var(--font-montserrat);
+        font-weight: 700;
+        color: var(--partners-cl);
+        padding-top: 45px;
+        padding-bottom: 87px;
+    }
+    .love-us-list {
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+    }
+
+    .love-us-list-title {
+        font-size: 14px;
+        font-family: var(--font-montserrat);
+        font-weight: 700;
+        color: var(--partners-cl);
+    }
+    .love-us-text {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: var(--font-roboto);
+        color: var(--partners-text);
+    }
+
+    .love-us-btn {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: var(--font-montserrat);
+        border: 2px solid #1CD7AD;
+        color: #1CD7AD;
+        background-color: white;
+        width: 190px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 55px;
+    }
+
+    .love-us-img {
+        margin-top: 76px;
+        width: 1440px;
+    }
+    .footer {
+        height: 294px;
+    }
+
+    .footer-container {
+        margin-top: 112px;
+        margin-bottom: 44px;
+        display: flex;
+        text-align: center;
+        gap: 100px;
+    }
+    .footer-logo {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: var(--font-montserrat);
+        padding-left: 167px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: var(--font-roboto);
+        color: #FFA507;
+        padding-left: 152px;
+    }
+
+    .footer-title-1 {
+        color: #D23166;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: var(--font-montserrat);
+    }
+    .footer-title-2 {
+        color: #2196F3;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: var(--font-montserrat);
+    }
+    .footer-title-3 {
+        color: #1CD7AD;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: var(--font-montserrat);
+    }
+    .footer-item {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: var(--font-roboto);
+        color: var(--partners-text);
+    }
+    .footer-copyright {
+        background-color: var(--partners-text);
+        display: flex;
+        justify-content: center;
+    }
+    .copyright {
+        font-weight: 500;
+        font-size: 14px;
+        font-family: var(--font-montserrat);
+        color: white;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .header {
+        background-image: url(images/header.webp);
+        background-size: cover;
+        height: 702px;
+    }
+
+    .nav {
+        display: flex;
+        padding-top: 36px;
+    }
+
+    .logo {
+        padding-left: 235px;
+        padding-right: 580px;
+        color: var(--header-color);
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .header-btn {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--header-color);
+        padding-right: 9px;
+        margin: auto 0;
+    }
+
+    .sing-up {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--header-color);
+        border: 2px solid var(--header-color);
+        border-radius: 20px;
+        margin: auto 0;
+        padding: 5px;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .hero-title {
+        font-size: 52px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--header-color);
+        text-transform: uppercase;
+        padding-top: 70px;
+    }
+
+    .hero-text {
+        font-size: 24px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        color: var(--header-color);
+        padding-bottom: 26px;
+    }
+
+    .hero-btn {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 20px;
+        background-color: var(--btn-hero-bg);
+        padding: 13px;
+        color: var(--header-color);
+        height: 23px;
+    }
+
 }
