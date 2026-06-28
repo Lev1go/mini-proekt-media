@@ -28,6 +28,13 @@ a {
     --font-roboto: 'Roboto', sans-serif;
     --partners-cl: #333333;
     --partners-text: #666666;
+    --hero_text: white;
+    --hero_butn: #FF4E50;
+    --partners_butn: #FFA507;
+    --guides_butn: #4E73DB;
+    --love_us_butn: #1CD7AD;
+    --footer-back: #666666;
+    --quick_links: #D23166;
 }
 
 @media (min-width: 1024px) {
@@ -339,6 +346,7 @@ a {
         background-image: url(images/header.webp);
         background-size: cover;
         height: 702px;
+        width: 768px;
     }
 
     .nav {
@@ -347,8 +355,8 @@ a {
     }
 
     .logo {
-        padding-left: 235px;
-        padding-right: 580px;
+        padding-left: 50px;
+        padding-right: 310px;
         color: var(--header-color);
         font-size: 20px;
         font-weight: 700;
